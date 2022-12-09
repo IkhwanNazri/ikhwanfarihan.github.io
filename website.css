@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #0a0a26;
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: #ffba31;
+  max-width: 428px;
+  height: 100vh;
+}
+h1 {
+  position: absolute;
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+  left: 30px;
+  top: 52px;
+}
+h5 {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 500;
+  top: 100px;
+  text-align: center;
+  padding: 40px;
+}
+.bulat .satu {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 62px;
+  top: 259px;
+  display: flex;
+  border-radius: 100px;
+  background: #ffba31;
+  color: #0a0a26;
+  text-align: center;
+}
+.bulat .dua {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 172px;
+  top: 259px;
+  display: flex;
+  border-radius: 100px;
+  background: #ffba31;
+  color: #0a0a26;
+  text-align: center;
+}
+.bulat .tiga {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 299px;
+  top: 259px;
+  display: flex;
+  border-radius: 100px;
+  background: #ffba31;
+  color: #0a0a26;
+  text-align: center;
+}
+.bulat .tiga .nombor {
+  color: #0a0a26;
+  position: absolute;
+  top: 3px;
+  left: 11px;
+  font-weight: 500;
+}
+
+.bulat .dua .nombor {
+  color: #0a0a26;
+  position: absolute;
+  top: 3px;
+  left: 11px;
+  font-weight: 500;
+}
+
+.bulat .satu .nombor {
+  color: #0a0a26;
+  position: absolute;
+  top: 3px;
+  left: 12px;
+}
+
+.saya {
+  position: absolute;
+
+  top: 295px;
+  text-transform: uppercase;
+  display: flex;
+  text-indent: 50px;
+}
+button a {
+  position: absolute;
+  width: 115px;
+  height: 19px;
+  left: 131px;
+  top: 568px;
+  background-color: #ffba31;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 800;
+  color: #0a0a26;
+  font-weight: 500;
+  border-style: none;
+}
+.website h5 {
+  top: 387px;
+  left: 13px;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#pilih {
+  background-color: #ffba31;
+  position: absolute;
+  width: 285px;
+  height: 19px;
+  left: 54px;
+  top: 450px;
+  overflow: hidden;
+  font-size: 12px;
+  border: none;
+  text-transform: uppercase;
+  border: none;
+}
+.nak h5 {
+  color: #ffba31;
+  font-size: 12px;
+  position: absolute;
+  top: 387px;
+  text-transform: uppercase;
+  left: 13px;
+}
+.harga h5 {
+  top: 458px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  left: 13px;
+}
+#price {
+  background-color: #ffba31;
+  position: absolute;
+  width: 285px;
+  height: 19px;
+  left: 54px;
+  top: 520px;
+  overflow: hidden;
+  font-size: 12px;
+  border: none;
+  text-transform: uppercase;
+  border: none;
+}
+.contoh {
+  position: absolute;
+  top: 357px;
+  text-align: center;
+  margin-left: 140px;
+}
+.contoh a {
+  color: #ffba31;
+
+  text-transform: uppercase;
+}
+footer h5 {
+  top: 580px;
+  position: absolute;
+  text-align: center;
+  left: 59px;
+}
