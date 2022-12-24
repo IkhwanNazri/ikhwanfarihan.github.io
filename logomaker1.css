@@ -17,7 +17,7 @@ body {
 }
 h1 {
   padding-top: 40px;
-  left: 50px;
+  left: 100px;
   position: absolute;
 }
 button {
@@ -31,7 +31,7 @@ button {
   position: absolute;
   top: 120px;
   text-align: center;
-  left: 90px;
+  left: 130px;
   border-style: none;
   border-radius: 20px;
 }
@@ -44,6 +44,69 @@ button a {
   top: 5px;
   left: 25px;
 }
+
+/* sad */
+/* .register {
+  position: absolute;
+  top: 200px;
+} */
+.register .nav-tabs .nav-link:hover {
+  border: none;
+}
+
+.text-align {
+  margin-top: -3%;
+  margin-bottom: -9%;
+
+  padding: 10%;
+  margin-left: 30%;
+}
+
+.form-new {
+  margin-right: 22%;
+  margin-left: 20%;
+}
+
+.register-heading {
+  margin-left: 21%;
+  margin-bottom: 10%;
+  color: #ffba31;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.register {
+  top: 200px;
+  padding: 3%;
+  border-radius: 2.5rem;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.btnSubmit {
+  width: 120px;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0b486b;
+  border: none;
+  cursor: pointer;
+  /* margin-right: 6%; */
+  color: rgb(246, 246, 252);
+  margin-top: 16%;
+  position: absolute;
+  left: 80px;
+}
+form {
+  width: 300px;
+  right: -100px;
+  padding-top: 20px;
+  position: absolute;
+}
+
+/* g */
 footer h5 {
   top: 580px;
   position: absolute;
