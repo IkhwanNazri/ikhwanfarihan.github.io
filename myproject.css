@@ -77,3 +77,20 @@ footer h5 {
   font-weight: 600;
   text-transform: uppercase;
 }
+.auto button {
+  position: absolute;
+  background-color: #ffba31;
+  top: 550px;
+  border-radius: 20px;
+  width: 150px;
+  right: 100px;
+  height: 40px;
+  border-style: none;
+}
+.auto button a {
+  color: #0a0a26;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
