@@ -20,6 +20,10 @@ h1 {
   /* left: 50px; */
   position: absolute;
 }
+h4 {
+  padding-top: 110px;
+  margin-left: 20px;
+}
 .pelajar button {
   position: absolute;
   background-color: #ffba31;
@@ -80,7 +84,7 @@ footer h5 {
 .auto button {
   position: absolute;
   background-color: #ffba31;
-  top: 550px;
+  top: 450px;
   border-radius: 20px;
   width: 150px;
   right: 100px;
