@@ -45,7 +45,7 @@ h4 {
 .myservices h2 {
   position: absolute;
   padding-top: 70px;
-  top: 200px;
+  top: 100px;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -65,7 +65,7 @@ h4 {
   background: #1a1b2f;
   border-radius: 5px;
   left: 19px;
-  top: 320px;
+  top: 210px;
 }
 .card img {
   padding-top: 20px;
@@ -80,7 +80,7 @@ h4 {
   width: 102px;
   height: 167px;
   left: 135px;
-  top: 320px;
+  top: 210px;
 
   background: #ffba31;
   border-radius: 5px;
@@ -98,7 +98,7 @@ h4 {
   width: 95px;
   height: 167px;
   left: 255px;
-  top: 320px;
+  top: 210px;
 
   background: #1a1b2f;
   border-radius: 5px;
@@ -159,13 +159,142 @@ h4 {
   position: absolute;
   text-decoration: none;
 }
+.progress h2 {
+  position: absolute;
+  top: 350px;
+  padding-top: 60px;
+  right: 123px;
+}
+.box {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 390px;
+  left: 10px;
+}
+.box .percent {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+}
+.box .percent svg circle {
+  width: 150px;
+  height: 150px;
+  fill: none;
+  stroke-width: 10;
+  stroke: #000;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  stroke-linecap: round;
+}
+.box .percent svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #f3f3f3;
+}
+.box .percent svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (400 * 65) / 100);
+  stroke: #ffba31;
+}
+.box .percent .number {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffba31;
+  text-align: center;
+}
+.box .percent .number h2 {
+  font-size: 20px;
+}
+.box .percent .number h2 span {
+  font-size: 10px;
+}
+.box .text {
+  padding: 80px 30px 0px 0px;
+
+  color: #ffba31;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.box2 {
+  position: absolute;
+  width: 100px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 390px;
+  left: 190px;
+}
+.box2 .percent {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+}
+.box2 .percent svg circle {
+  width: 150px;
+  height: 150px;
+  fill: none;
+  stroke-width: 10;
+  stroke: #000;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  stroke-linecap: round;
+}
+.box2 .percent svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #f3f3f3;
+}
+.box2 .percent svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (400 * 50) / 100);
+  stroke: #ffba31;
+}
+.box2 .percent .number {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffba31;
+  text-align: center;
+}
+.box2 .percent .number h2 {
+  font-size: 20px;
+}
+.box2 .percent .number h2 span {
+  font-size: 10px;
+}
+.box2 .text {
+  padding: 80px 30px 0px 0px;
+
+  color: #ffba31;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
 .tajuk h2 {
   color: white;
   font-size: 20px;
   font-weight: 700;
   left: 140px;
 
-  top: 530px;
+  top: 660px;
   position: absolute;
 }
 .tajuk p {
@@ -173,7 +302,7 @@ h4 {
   color: white;
   font-weight: 400;
   position: absolute;
-  top: 580px;
+  top: 700px;
   left: 110px;
 }
 .tajuk .daftar a {
@@ -181,7 +310,7 @@ h4 {
   width: 94px;
   height: 23px;
   left: 85px;
-  top: 630px;
+  top: 750px;
 
   background: #ffba31;
   border-radius: 5px;
@@ -200,10 +329,17 @@ h4 {
   width: 94px;
   height: 23px;
   left: 210px;
-  top: 630px;
+  top: 750px;
 
   border: 1px solid #ffba31;
   border-radius: 5px;
   text-decoration: none;
   padding: 2px;
+}
+footer h3 {
+  top: 800px;
+  padding-top: 30px;
+  right: 90px;
+  color: #ffba31;
+  text-transform: capitalize;
 }
