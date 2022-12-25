@@ -167,14 +167,14 @@ h4 {
 }
 .box {
   position: absolute;
-  width: 200px;
+  width: 100px;
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   top: 390px;
-  left: 10px;
+  left: 30px;
 }
 .box .percent {
   position: absolute;
@@ -235,7 +235,7 @@ h4 {
   align-items: center;
   flex-direction: column;
   top: 390px;
-  left: 190px;
+  left: 150px;
 }
 .box2 .percent {
   position: absolute;
@@ -335,11 +335,5 @@ h4 {
   border-radius: 5px;
   text-decoration: none;
   padding: 2px;
-}
-footer h3 {
-  top: 800px;
-  padding-top: 30px;
-  right: 90px;
-  color: #ffba31;
-  text-transform: capitalize;
+  padding-bottom: 20px;
 }
