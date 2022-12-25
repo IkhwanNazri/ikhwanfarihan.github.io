@@ -167,7 +167,7 @@ h4 {
 }
 .box {
   position: absolute;
-  width: 100px;
+  width: 50px;
   height: 300px;
   display: flex;
   justify-content: center;
@@ -178,12 +178,12 @@ h4 {
 }
 .box .percent {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
 }
 .box .percent svg circle {
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
   fill: none;
   stroke-width: 10;
   stroke: #000;
@@ -197,7 +197,7 @@ h4 {
   stroke: #f3f3f3;
 }
 .box .percent svg circle:nth-child(2) {
-  stroke-dashoffset: calc(440 - (400 * 65) / 100);
+  stroke-dashoffset: calc(440 - (400 * 45) / 100);
   stroke: #ffba31;
 }
 .box .percent .number {
@@ -228,7 +228,7 @@ h4 {
 }
 .box2 {
   position: absolute;
-  width: 100px;
+  width: 50px;
   height: 300px;
   display: flex;
   justify-content: center;
@@ -239,12 +239,12 @@ h4 {
 }
 .box2 .percent {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
 }
 .box2 .percent svg circle {
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
   fill: none;
   stroke-width: 10;
   stroke: #000;
