@@ -34,7 +34,7 @@ body {
   z-index: 99;
 }
 
-.card .hntr {
+/* .card .hntr {
   width: 88px;
   height: 104px;
   background: #e14d2a;
@@ -108,10 +108,10 @@ body {
   color: white;
   text-transform: uppercase;
   font-weight: 700;
-  /* padding-bottom: 105px; */
+  padding-bottom: 105px;
   position: absolute;
   padding-left: 29px;
-}
+} */
 .product h3 {
   color: white;
   font-size: 32px;
@@ -125,7 +125,7 @@ body {
   margin-top: 220px;
   width: 100%;
   /* height: 121px; */
-  right: 20px;
+  /* right: 20px; */
 }
 .product p {
   color: white;
@@ -193,4 +193,20 @@ form .container button a {
   margin-top: 16%;
   position: absolute;
   left: 80px;
+}
+/* layanan */
+#card {
+  padding: 20px 0px;
+}
+.card-hantar {
+  width: 88px;
+  height: 104px;
+  background-color: #ff6e31;
+  border-radius: 11px;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-hantar h5 {
+  color: white;
+  font-size: 8px;
+  font-weight: 700;
 }
