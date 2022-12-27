@@ -7,7 +7,7 @@
 }
 body {
   background-color: #0a0a26;
-  color: white;
+  color: #ffba31;
   position: relative;
   display: flex;
   text-align: center;
@@ -17,7 +17,6 @@ body {
   height: 100vh;
 }
 h1 {
-  color: white;
   font-size: 40px;
   font-weight: 800;
   text-transform: uppercase;
@@ -28,14 +27,13 @@ h1 {
 h3 {
   font-size: 16px;
   font-weight: 500;
-  color: white;
+
   position: absolute;
   text-transform: uppercase;
   top: 70px;
   padding-top: 40px;
 }
 h4 {
-  color: white;
   font-size: 12px;
   font-weight: 500;
   top: 110px;
@@ -45,7 +43,7 @@ h4 {
 .myservices h2 {
   position: absolute;
   padding-top: 70px;
-  top: 200px;
+  top: 100px;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -65,7 +63,7 @@ h4 {
   background: #1a1b2f;
   border-radius: 5px;
   left: 19px;
-  top: 320px;
+  top: 210px;
 }
 .card img {
   padding-top: 20px;
@@ -80,7 +78,7 @@ h4 {
   width: 102px;
   height: 167px;
   left: 135px;
-  top: 320px;
+  top: 210px;
 
   background: #ffba31;
   border-radius: 5px;
@@ -98,7 +96,7 @@ h4 {
   width: 95px;
   height: 167px;
   left: 255px;
-  top: 320px;
+  top: 210px;
 
   background: #1a1b2f;
   border-radius: 5px;
@@ -159,21 +157,245 @@ h4 {
   position: absolute;
   text-decoration: none;
 }
+.progress h2 {
+  position: absolute;
+  top: 350px;
+  padding-top: 60px;
+  right: 123px;
+}
+.progressbar {
+  background-color: #ffba31;
+  width: 290px;
+  top: 460px;
+  left: 20px;
+  position: absolute;
+  height: 20px;
+  color: #1a1b2f;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.progressbar h5 {
+  color: #ffba31;
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+.progressbar2 {
+  background-color: #ffba31;
+  width: 200px;
+  top: 500px;
+  left: 20px;
+  position: absolute;
+  height: 20px;
+  color: #1a1b2f;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.progressbar2 h5 {
+  color: #ffba31;
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+.progressbar3 {
+  background-color: #ffba31;
+  width: 200px;
+  top: 540px;
+  left: 20px;
+  position: absolute;
+  height: 20px;
+  color: #1a1b2f;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.progressbar3 h5 {
+  color: #ffba31;
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+.progressbar4 {
+  background-color: #ffba31;
+  width: 250px;
+  top: 580px;
+  left: 20px;
+  position: absolute;
+  height: 20px;
+  color: #1a1b2f;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.progressbar4 h5 {
+  color: #ffba31;
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+.progressbar5 {
+  background-color: #ffba31;
+  width: 270px;
+  top: 620px;
+  left: 20px;
+  position: absolute;
+  height: 20px;
+  color: #1a1b2f;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.progressbar5 h5 {
+  color: #ffba31;
+  top: 20px;
+  left: 0px;
+  position: absolute;
+}
+
+/* .box {
+  position: absolute;
+  width: 50px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 390px;
+  left: 30px;
+}
+.box .percent {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+.box .percent svg circle {
+  width: 50px;
+  height: 50px;
+  fill: none;
+  stroke-width: 10;
+  stroke: #000;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  stroke-linecap: round;
+}
+.box .percent svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #f3f3f3;
+}
+.box .percent svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (400 * 45) / 100);
+  stroke: #ffba31;
+}
+.box .percent .number {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffba31;
+  text-align: center;
+}
+.box .percent .number h2 {
+  font-size: 20px;
+}
+.box .percent .number h2 span {
+  font-size: 10px;
+}
+.box .text {
+  padding: 80px 30px 0px 0px;
+
+  color: #ffba31;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.box2 {
+  position: absolute;
+  width: 50px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 390px;
+  left: 150px;
+}
+.box2 .percent {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+.box2 .percent svg circle {
+  width: 50px;
+  height: 50px;
+  fill: none;
+  stroke-width: 10;
+  stroke: #000;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  stroke-linecap: round;
+}
+.box2 .percent svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #f3f3f3;
+}
+.box2 .percent svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (400 * 50) / 100);
+  stroke: #ffba31;
+}
+.box2 .percent .number {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffba31;
+  text-align: center;
+}
+.box2 .percent .number h2 {
+  font-size: 20px;
+}
+.box2 .percent .number h2 span {
+  font-size: 10px;
+}
+.box2 .text {
+  padding: 80px 30px 0px 0px;
+
+  color: #ffba31;
+  font-weight: 700;
+  letter-spacing: 1px;
+} */
+
 .tajuk h2 {
-  color: white;
   font-size: 20px;
   font-weight: 700;
   left: 140px;
 
-  top: 530px;
+  top: 660px;
   position: absolute;
 }
 .tajuk p {
   font-size: 5px;
-  color: white;
+
   font-weight: 400;
   position: absolute;
-  top: 580px;
+  top: 700px;
   left: 110px;
 }
 .tajuk .daftar a {
@@ -181,7 +403,7 @@ h4 {
   width: 94px;
   height: 23px;
   left: 85px;
-  top: 630px;
+  top: 750px;
 
   background: #ffba31;
   border-radius: 5px;
@@ -200,10 +422,11 @@ h4 {
   width: 94px;
   height: 23px;
   left: 210px;
-  top: 630px;
+  top: 750px;
 
   border: 1px solid #ffba31;
   border-radius: 5px;
   text-decoration: none;
   padding: 2px;
+  padding-bottom: 20px;
 }

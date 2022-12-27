@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Auto Follower Instagram</title>
+    <style>
+      body {
+        background-color: #0a0a26;
+        color: #ffba31;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        position: relative;
+        height: 100vh;
+      }
+      p {
+        position: absolute;
+        top: 200px;
+        background-color: white;
+        color: black;
+      }
+      textarea {
+        position: absolute;
+        width: 100%;
+        top: 200px;
+        height: 400px;
+        padding-left: 20px;
+      }
+      h4 {
+        position: absolute;
+        top: 100px;
+      }
+      h5 {
+        position: absolute;
+        top: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Auto Follower Instagram</h1>
+    <h4>Masih Dalam Pembuatan</h4>
+
+    <textarea name="" id="">
+        (() => {
+            let i = 0;
+            const followInterval = setInterval(() => {
+              if (i >= 30) {
+                clearInterval(followInterval);
+                return;
+              }
+              const buttons = document.querySelectorAll("button");
+              const nextButton = buttons[i];
+              nextButton.click();
+              i++;
+            }, 1000);
+            console.log("intervalID =>", followInterval);
+          })();
+          
+    </textarea>
+    <h5>
+      1.Copy Semua<br />
+      2.Insepct Element<br />
+      3.Tekan Console<br />
+      4.paste dibawah<br />
+      5.tekan enter
+    </h5>
+  </body>
+</html>
