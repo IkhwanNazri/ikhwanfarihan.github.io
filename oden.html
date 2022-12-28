@@ -110,7 +110,7 @@
         </div>
       </div>
     </div>
-    <form>
+    <form name="fyp-contact-form">
       <div class="container">
         <div class="mb-3">
           <label class="form-label">Nama</label>
@@ -128,7 +128,7 @@
           <div class="form-group">
 
             <label>PILIHAN</label>
-            <select  class="form-control" id="pilihan">
+            <select  class="form-control" id="pilihan" name="pilihan">
               <option >1asdasdasd</option>
               <option >asddasdasd</option>
               <option >asdsaad</option>
@@ -144,7 +144,7 @@
         <!-- <button type="button" name="submit" class="btn btn-danger mb-3" onclick="gotowhatsapp()" value="submit"><a href="">Hantar</a></button> -->
           
 
-            <input type="button" name="submit" class="btnSubmit btn-block btn-danger mt-5 ms-5 position-absolute" onclick="gotowhatsapp()" value="Hantar" />
+            <input type="submit" name="submit" class="btnSubmit btn-block btn-danger mt-5 ms-5 position-absolute" onclick="gotowhatsapp()" value="Hantar" />
           </div>
         </div>
       </div>
@@ -165,6 +165,18 @@
 
         window.open(url, "_blank").focus();
       }
+    </script>
+    
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbzAmdHOsSVGmLRq5MRipLypvde0CA3cgzOgUXU94LzYPyOUQ0wjMMchJqQjfPHw-myk/exec";
+      const form = document.forms["fyp-contact-form"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => console.log("Success!", response))
+          .catch((error) => console.error("Error!", error.message));
+      });
     </script>
   </body>
 </html>
