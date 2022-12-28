@@ -395,7 +395,7 @@ form .container button a {
 } */
 .btnSubmit {
   width: 120px;
-  border-radius: 1rem;
+  border-radius: 11px;
   padding: 1.5%;
   color: #fff;
 
@@ -405,7 +405,9 @@ form .container button a {
   color: rgb(246, 246, 252);
   margin-top: 16%;
   position: absolute;
-  left: 80px;
+  /* left: 80px; */
+  font-weight: 700;
+  text-transform: uppercase;
 }
 /* layanan */
 #card {
@@ -423,3 +425,9 @@ form .container button a {
   font-size: 8px;
   font-weight: 700;
 }
+
+/* @media screen and (min-width: 767px) and (max-width: 1023px) {
+  .jumbotron img {
+    width: 100%;
+  }
+} */
