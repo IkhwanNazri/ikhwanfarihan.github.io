@@ -48,6 +48,10 @@ body {
   cursor: pointer;
   width: 200px;
 }
+#card .card-ui button a {
+  text-decoration: none;
+  color: #0a0a26;
+}
 .pelajar button {
   position: absolute;
   background-color: #ffba31;
