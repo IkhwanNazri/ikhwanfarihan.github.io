@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+/* <<<<<<< HEAD */
 * {
   margin: 0;
   padding: 0;
@@ -7,209 +6,105 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #0a0a26;
-  color: white;
   position: relative;
   display: flex;
   text-align: center;
   justify-content: center;
-
-  max-width: 428px;
+  color: #ffba31;
+  width: 100%;
   height: 100vh;
 }
-h1 {
-  color: white;
-  font-size: 40px;
-  font-weight: 800;
-  text-transform: uppercase;
-  padding-top: 50px;
-  position: absolute;
+.container {
+  padding-top: 80px;
 }
-
-h3 {
-  font-size: 16px;
-  font-weight: 500;
-  color: white;
-  position: absolute;
-  text-transform: uppercase;
-  top: 70px;
-  padding-top: 40px;
-}
-h4 {
-  color: white;
-  font-size: 12px;
-  font-weight: 500;
-  top: 110px;
-  padding-top: 25px;
-  position: absolute;
-}
-.myservices h2 {
-  position: absolute;
-  padding-top: 70px;
-  top: 200px;
-  font-size: 20px;
+.container h1 {
+  color: #ffba31;
+  font-size: 64px;
   font-weight: 700;
   text-transform: uppercase;
+}
 
-  right: 120px;
+.container h2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffba31;
+
+  text-transform: uppercase;
 }
-.nama {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.card {
-  position: absolute;
-  width: 95px;
-  height: 167px;
-  background: #1a1b2f;
-  border-radius: 5px;
-  left: 19px;
-  top: 320px;
-}
-.card img {
-  padding-top: 20px;
-}
-.card h5 {
-  font-size: 11px;
+.container h6 {
+  font-size: 36px;
   font-weight: 700;
   color: #ffba31;
 }
-.card2 {
-  position: absolute;
-  width: 102px;
-  height: 167px;
-  left: 135px;
-  top: 320px;
+#card {
+  padding: 120px 0px;
 
+  /* justify-content: center;
+  align-items: center; */
+}
+#card h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1b2f;
+}
+.card-ui {
   background: #ffba31;
-  border-radius: 5px;
+  box-shadow: 3px 11px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  width: 100%;
+  height: 313px;
+  padding: 40px;
+  margin-bottom: 30px;
 }
-.card2 img {
-  padding-top: 25px;
+.card-ui img {
+  width: 25%;
+  height: 25%;
 }
-.card2 h5 {
-  color: #1a1b2f;
-  font-size: 11px;
-  font-weight: 700;
-}
-.card3 {
-  position: absolute;
-  width: 95px;
-  height: 167px;
-  left: 255px;
-  top: 320px;
-
-  background: #1a1b2f;
-  border-radius: 5px;
-}
-.card3 img {
-  padding-top: 15px;
-}
-.card3 h5 {
-  font-size: 11px;
-  font-weight: 700;
-  color: #ffba31;
-}
-.card3 p {
-  font-size: 5px;
-  padding-top: 20px;
-  color: #ffba31;
-  font-weight: 500;
-  align-items: center;
-  text-align: center;
-}
-.card p {
-  font-size: 5px;
-  padding-top: 20px;
-  color: #ffba31;
-  font-weight: 500;
-  align-items: center;
-  text-align: center;
-}
-.card2 p {
-  font-size: 5px;
-  padding-top: 24px;
-  color: #1a1b2f;
-  font-weight: 500;
-  align-items: center;
-  text-align: center;
-}
-.card a {
-  font-size: 5px;
-  color: #ffba31;
-  padding-top: 30px;
-  left: 39px;
-  position: absolute;
-  text-decoration: none;
-}
-.card2 a {
-  font-size: 5px;
-  color: #1a1b2f;
-  padding-top: 39px;
-  left: 40px;
-  position: absolute;
-  text-decoration: none;
-}
-.card3 a {
-  font-size: 5px;
-  color: #ffba31;
-  padding-top: 35px;
-  left: 39px;
-  position: absolute;
-  text-decoration: none;
-}
-.tajuk h2 {
-  color: white;
+.card-ui h6 a {
   font-size: 20px;
-  font-weight: 700;
-  left: 140px;
-
-  top: 530px;
-  position: absolute;
-}
-.tajuk p {
-  font-size: 5px;
-  color: white;
-  font-weight: 400;
-  position: absolute;
-  top: 580px;
-  left: 110px;
-}
-.tajuk .daftar a {
-  position: absolute;
-  width: 94px;
-  height: 23px;
-  left: 85px;
-  top: 630px;
-
-  background: #ffba31;
-  border-radius: 5px;
+  font-weight: 600;
   color: #1a1b2f;
-  font-size: 11px;
-  font-weight: 700;
   text-decoration: none;
-  text-align: center;
-  padding: 2px;
 }
-.tajuk .login a {
+#skill {
+  padding: 100px 0px;
+}
+#skill h4 {
   color: #ffba31;
-  font-size: 11px;
-  font-weight: 700;
-  position: absolute;
-  width: 94px;
-  height: 23px;
-  left: 210px;
-  top: 630px;
-
-  border: 1px solid #ffba31;
-  border-radius: 5px;
-  text-decoration: none;
-  padding: 2px;
 }
-=======
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+.login h4 {
+  color: #ffba31;
+  font-size: 28px;
+  font-weight: 700;
+}
+.login button {
+  border-radius: 30px;
+  background-color: #ffba31;
+  border-style: none;
+  width: 220px;
+}
+.login button a {
+  text-decoration: none;
+  color: #1a1b2f;
+  font-size: 24px;
+  font-weight: 600;
+}
+.login .masuk button {
+  border-radius: 30px;
+  border-style: solid;
+  background-color: #1a1b2f;
+  border-color: #ffba31;
+  width: 220px;
+}
+.login .masuk button a {
+  text-decoration: none;
+  color: #ffba31;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* ======= */
+
 * {
   margin: 0;
   padding: 0;
@@ -217,205 +112,100 @@ h4 {
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #0a0a26;
-  color: white;
   position: relative;
   display: flex;
   text-align: center;
   justify-content: center;
-
-  max-width: 428px;
+  color: #ffba31;
+  width: 100%;
   height: 100vh;
 }
-h1 {
-  color: white;
-  font-size: 40px;
-  font-weight: 800;
-  text-transform: uppercase;
-  padding-top: 50px;
-  position: absolute;
+.container {
+  padding-top: 80px;
 }
-
-h3 {
-  font-size: 16px;
-  font-weight: 500;
-  color: white;
-  position: absolute;
-  text-transform: uppercase;
-  top: 70px;
-  padding-top: 40px;
-}
-h4 {
-  color: white;
-  font-size: 12px;
-  font-weight: 500;
-  top: 110px;
-  padding-top: 25px;
-  position: absolute;
-}
-.myservices h2 {
-  position: absolute;
-  padding-top: 70px;
-  top: 200px;
-  font-size: 20px;
+.container h1 {
+  color: #ffba31;
+  font-size: 64px;
   font-weight: 700;
   text-transform: uppercase;
+}
 
-  right: 120px;
+.container h2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffba31;
+
+  text-transform: uppercase;
 }
-.nama {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.card {
-  position: absolute;
-  width: 95px;
-  height: 167px;
-  background: #1a1b2f;
-  border-radius: 5px;
-  left: 19px;
-  top: 320px;
-}
-.card img {
-  padding-top: 20px;
-}
-.card h5 {
-  font-size: 11px;
+.container h6 {
+  font-size: 36px;
   font-weight: 700;
   color: #ffba31;
 }
-.card2 {
-  position: absolute;
-  width: 102px;
-  height: 167px;
-  left: 135px;
-  top: 320px;
+#card {
+  padding: 120px 0px;
 
+  /* justify-content: center;
+  align-items: center; */
+}
+#card h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1b2f;
+}
+.card-ui {
   background: #ffba31;
-  border-radius: 5px;
+  box-shadow: 3px 11px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  width: 100%;
+  height: 313px;
+  padding: 40px;
+  margin-bottom: 30px;
 }
-.card2 img {
-  padding-top: 25px;
+.card-ui img {
+  width: 25%;
+  height: 25%;
 }
-.card2 h5 {
-  color: #1a1b2f;
-  font-size: 11px;
-  font-weight: 700;
-}
-.card3 {
-  position: absolute;
-  width: 95px;
-  height: 167px;
-  left: 255px;
-  top: 320px;
-
-  background: #1a1b2f;
-  border-radius: 5px;
-}
-.card3 img {
-  padding-top: 15px;
-}
-.card3 h5 {
-  font-size: 11px;
-  font-weight: 700;
-  color: #ffba31;
-}
-.card3 p {
-  font-size: 5px;
-  padding-top: 20px;
-  color: #ffba31;
-  font-weight: 500;
-  align-items: center;
-  text-align: center;
-}
-.card p {
-  font-size: 5px;
-  padding-top: 20px;
-  color: #ffba31;
-  font-weight: 500;
-  align-items: center;
-  text-align: center;
-}
-.card2 p {
-  font-size: 5px;
-  padding-top: 24px;
-  color: #1a1b2f;
-  font-weight: 500;
-  align-items: center;
-  text-align: center;
-}
-.card a {
-  font-size: 5px;
-  color: #ffba31;
-  padding-top: 30px;
-  left: 39px;
-  position: absolute;
-  text-decoration: none;
-}
-.card2 a {
-  font-size: 5px;
-  color: #1a1b2f;
-  padding-top: 39px;
-  left: 40px;
-  position: absolute;
-  text-decoration: none;
-}
-.card3 a {
-  font-size: 5px;
-  color: #ffba31;
-  padding-top: 35px;
-  left: 39px;
-  position: absolute;
-  text-decoration: none;
-}
-.tajuk h2 {
-  color: white;
+.card-ui h6 a {
   font-size: 20px;
-  font-weight: 700;
-  left: 140px;
-
-  top: 530px;
-  position: absolute;
-}
-.tajuk p {
-  font-size: 5px;
-  color: white;
-  font-weight: 400;
-  position: absolute;
-  top: 580px;
-  left: 110px;
-}
-.tajuk .daftar a {
-  position: absolute;
-  width: 94px;
-  height: 23px;
-  left: 85px;
-  top: 630px;
-
-  background: #ffba31;
-  border-radius: 5px;
+  font-weight: 600;
   color: #1a1b2f;
-  font-size: 11px;
-  font-weight: 700;
   text-decoration: none;
-  text-align: center;
-  padding: 2px;
 }
-.tajuk .login a {
+#skill {
+  padding: 100px 0px;
+}
+#skill h4 {
   color: #ffba31;
-  font-size: 11px;
-  font-weight: 700;
-  position: absolute;
-  width: 94px;
-  height: 23px;
-  left: 210px;
-  top: 630px;
-
-  border: 1px solid #ffba31;
-  border-radius: 5px;
-  text-decoration: none;
-  padding: 2px;
 }
->>>>>>> bba2f6184d83733ac7ff2ccd57d987732da5610e
+.login h4 {
+  color: #ffba31;
+  font-size: 28px;
+  font-weight: 700;
+}
+.login button {
+  border-radius: 30px;
+  background-color: #ffba31;
+  border-style: none;
+  width: 220px;
+}
+.login button a {
+  text-decoration: none;
+  color: #1a1b2f;
+  font-size: 24px;
+  font-weight: 600;
+}
+.login .masuk button {
+  border-radius: 30px;
+  border-style: solid;
+  background-color: #1a1b2f;
+  border-color: #ffba31;
+  width: 220px;
+}
+.login .masuk button a {
+  text-decoration: none;
+  color: #ffba31;
+  font-size: 24px;
+  font-weight: 600;
+}
+/* >>>>>>> bba2f6184d83733ac7ff2ccd57d987732da5610e */
