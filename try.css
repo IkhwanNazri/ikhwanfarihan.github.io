@@ -1,0 +1,211 @@
+/* <<<<<<< HEAD */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #ffba31;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  padding-top: 80px;
+}
+.container h1 {
+  color: #ffba31;
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container h5 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffba31;
+
+  text-transform: uppercase;
+}
+.container h6 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffba31;
+}
+#card {
+  padding: 120px 0px;
+
+  /* justify-content: center;
+  align-items: center; */
+}
+#card h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1b2f;
+}
+.card-ui {
+  background: #ffba31;
+  box-shadow: 3px 11px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  width: 100%;
+  height: 313px;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+.card-ui img {
+  width: 25%;
+  height: 25%;
+}
+.card-ui h6 a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1b2f;
+  text-decoration: none;
+}
+#skill {
+  padding: 100px 0px;
+}
+#skill h4 {
+  color: #ffba31;
+}
+.login h4 {
+  color: #ffba31;
+  font-size: 28px;
+  font-weight: 700;
+}
+.login button {
+  border-radius: 30px;
+  background-color: #ffba31;
+  border-style: none;
+  width: 220px;
+}
+.login button a {
+  text-decoration: none;
+  color: #1a1b2f;
+  font-size: 24px;
+  font-weight: 600;
+}
+.login .masuk button {
+  border-radius: 30px;
+  border-style: solid;
+  background-color: #1a1b2f;
+  border-color: #ffba31;
+  width: 220px;
+}
+.login .masuk button a {
+  text-decoration: none;
+  color: #ffba31;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* ======= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  position: relative;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #ffba31;
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  padding-top: 80px;
+}
+.container h1 {
+  color: #ffba31;
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container h2 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #ffba31;
+
+  text-transform: uppercase;
+}
+.container h6 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffba31;
+}
+#card {
+  padding: 120px 0px;
+
+  /* justify-content: center;
+  align-items: center; */
+}
+#card h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1b2f;
+}
+.card-ui {
+  background: #ffba31;
+  box-shadow: 3px 11px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  width: 100%;
+  height: 313px;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+.card-ui img {
+  width: 25%;
+  height: 25%;
+}
+.card-ui h6 a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1b2f;
+  text-decoration: none;
+}
+#skill {
+  padding: 100px 0px;
+}
+#skill h4 {
+  color: #ffba31;
+}
+.login h4 {
+  color: #ffba31;
+  font-size: 28px;
+  font-weight: 700;
+}
+.login button {
+  border-radius: 30px;
+  background-color: #ffba31;
+  border-style: none;
+  width: 220px;
+}
+.login button a {
+  text-decoration: none;
+  color: #1a1b2f;
+  font-size: 24px;
+  font-weight: 600;
+}
+.login .masuk button {
+  border-radius: 30px;
+  border-style: solid;
+  background-color: #1a1b2f;
+  border-color: #ffba31;
+  width: 220px;
+}
+.login .masuk button a {
+  text-decoration: none;
+  color: #ffba31;
+  font-size: 24px;
+  font-weight: 600;
+}
+/* >>>>>>> bba2f6184d83733ac7ff2ccd57d987732da5610e */

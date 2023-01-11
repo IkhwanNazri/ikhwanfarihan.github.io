@@ -1,211 +1,132 @@
-/* <<<<<<< HEAD */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 body {
-  position: relative;
-  display: flex;
-  text-align: center;
+  background-color: #212529;
   justify-content: center;
-  color: #ffba31;
-  width: 100%;
-  height: 100vh;
-}
-.container {
-  padding-top: 80px;
-}
-.container h1 {
-  color: #ffba31;
-  font-size: 64px;
-  font-weight: 700;
-  text-transform: uppercase;
+  align-items: center;
+  color: white;
+  text-transform: capitalize;
 }
 
-.container h5 {
-  font-size: 64px;
+#hero h5 {
+  color: red;
+  font-size: 20px;
   font-weight: 700;
-  color: #ffba31;
-
-  text-transform: uppercase;
+  letter-spacing: 1px;
 }
-.container h6 {
-  font-size: 36px;
+.gd h3 {
   font-weight: 700;
-  color: #ffba31;
+  font-size: 52px;
+}
+.desc h6 {
+  word-wrap: break-word;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.aboutme button a:hover {
+  color: #212529 !important;
+}
+#card a:hover {
+  color: #212529 !important;
 }
 #card {
   padding: 120px 0px;
-
-  /* justify-content: center;
-  align-items: center; */
 }
-#card h3 {
-  font-size: 28px;
-  font-weight: 700;
-  color: #1a1b2f;
-}
-.card-ui {
-  background: #ffba31;
+#card .card1 {
+  background: #202224;
   box-shadow: 3px 11px 10px rgba(0, 0, 0, 0.5);
-  border-radius: 30px;
+  border-radius: 0px;
   width: 100%;
-  height: 313px;
+  height: 336px;
   padding: 40px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
-.card-ui img {
-  width: 25%;
-  height: 25%;
-}
-.card-ui h6 a {
-  font-size: 20px;
-  font-weight: 600;
-  color: #1a1b2f;
-  text-decoration: none;
-}
-#skill {
-  padding: 100px 0px;
-}
-#skill h4 {
-  color: #ffba31;
-}
-.login h4 {
-  color: #ffba31;
-  font-size: 28px;
-  font-weight: 700;
-}
-.login button {
-  border-radius: 30px;
-  background-color: #ffba31;
-  border-style: none;
-  width: 220px;
-}
-.login button a {
-  text-decoration: none;
-  color: #1a1b2f;
-  font-size: 24px;
-  font-weight: 600;
-}
-.login .masuk button {
-  border-radius: 30px;
-  border-style: solid;
-  background-color: #1a1b2f;
-  border-color: #ffba31;
-  width: 220px;
-}
-.login .masuk button a {
-  text-decoration: none;
-  color: #ffba31;
-  font-size: 24px;
-  font-weight: 600;
+#card .card1:hover {
+  background: linear-gradient(180deg, #ff0000 0%, rgba(121, 84, 84, 0) 182.52%) !important;
+  color: white !important;
+  border-radius: 30px !important;
 }
 
-/* ======= */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+/* projext */
+#project h2 {
+  font-weight: bold;
 }
-body {
-  position: relative;
-  display: flex;
-  text-align: center;
+#project .card2 {
+  background-color: #202224;
+  box-shadow: 3px 11px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 306px;
+  padding: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+#project .card2:hover {
+  background: linear-gradient(180deg, #ff0000 0%, rgba(121, 84, 84, 0) 182.52%) !important;
+  color: white !important;
+  border-radius: 30px !important;
+}
+#project .card2 img {
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  color: #ffba31;
-  width: 100%;
-  height: 100vh;
-}
-.container {
-  padding-top: 80px;
-}
-.container h1 {
-  color: #ffba31;
-  font-size: 64px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
-.container h2 {
-  font-size: 64px;
-  font-weight: 700;
-  color: #ffba31;
-
-  text-transform: uppercase;
-}
-.container h6 {
-  font-size: 36px;
-  font-weight: 700;
-  color: #ffba31;
-}
-#card {
-  padding: 120px 0px;
-
-  /* justify-content: center;
-  align-items: center; */
-}
-#card h3 {
-  font-size: 28px;
-  font-weight: 700;
-  color: #1a1b2f;
-}
-.card-ui {
-  background: #ffba31;
+/* skikl */
+#skill .exp {
+  background-color: #202224;
   box-shadow: 3px 11px 10px rgba(0, 0, 0, 0.5);
-  border-radius: 30px;
   width: 100%;
-  height: 313px;
+  height: 226px;
   padding: 40px;
   margin-bottom: 30px;
 }
-.card-ui img {
-  width: 25%;
+#skill .thn img {
+  width: 20%;
   height: 25%;
 }
-.card-ui h6 a {
-  font-size: 20px;
-  font-weight: 600;
-  color: #1a1b2f;
-  text-decoration: none;
+#skill .exp h4 {
+  font-size: 42px;
+  font-weight: bold;
 }
-#skill {
-  padding: 100px 0px;
+#skill .thn {
+  width: 100%;
+  height: 103px;
+  padding: 20px;
+  margin-bottom: 5%;
+  background-color: #202224;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 11px 10px rgba(0, 0, 0, 0.5);
 }
-#skill h4 {
-  color: #ffba31;
-}
-.login h4 {
-  color: #ffba31;
-  font-size: 28px;
-  font-weight: 700;
-}
-.login button {
+
+/* masuk */
+#masuk .container {
+  background-color: #202224;
+  box-shadow: 3px 11px 10px rgba(0, 0, 0, 0.5);
+  color: white;
   border-radius: 30px;
-  background-color: #ffba31;
-  border-style: none;
-  width: 220px;
+  padding: 40px;
+  margin-bottom: 60px;
 }
-.login button a {
-  text-decoration: none;
-  color: #1a1b2f;
-  font-size: 24px;
-  font-weight: 600;
+#masuk button a {
+  color: white;
 }
-.login .masuk button {
+
+/* akhir */
+#akhir .container {
+  background-color: #202224;
+  box-shadow: 3px 11px 10px rgba(0, 0, 0, 0.5);
+  color: white;
   border-radius: 30px;
-  border-style: solid;
-  background-color: #1a1b2f;
-  border-color: #ffba31;
-  width: 220px;
+  padding: 40px;
+  margin-bottom: 30px;
 }
-.login .masuk button a {
-  text-decoration: none;
-  color: #ffba31;
-  font-size: 24px;
-  font-weight: 600;
+#akhir h3 {
+  font-size: 32px;
+  font-weight: bold;
 }
-/* >>>>>>> bba2f6184d83733ac7ff2ccd57d987732da5610e */
